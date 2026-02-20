@@ -123,6 +123,19 @@ while True:
             lhs = stack.pop()
             stack.append(lhs | rhs)
             continue
+        if token == "&":
+            rhs = stack.pop()
+            lhs = stack.pop()
+            stack.append(lhs & rhs)
+            continue
+        if token == "^":
+            rhs = stack.pop()
+            lhs = stack.pop()
+            stack.append(lhs ^ rhs)
+            continue
+        if token == "!":
+            stack[-1] = not stack[-1]
+            continue
         if token == "<":
             rhs = stack.pop()
             lhs = stack.pop()
