@@ -1,6 +1,8 @@
 # Flagpole
 Custom golfing language interpreted in python
 
+# Warning: Test/Test Result folder has project euler solutions, if you want to solve these yourself don't look
+
 ## TODO:
  - strings?
  - self host
