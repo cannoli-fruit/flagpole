@@ -10,7 +10,9 @@ Custom stack-based language interpreted in python
 
 Currently doing project euler calculations as test programs.
 
-## Reference:
+The compiler currently is just not right at all honestly but it works for like 2 test cases
+
+## Reference(-ish):
  {}: Do while loop, condition is top of the stack when } is reached  
  []: If statement, condition is top of the stack when [ is reached  
  +: add top two numbers on the stack  
